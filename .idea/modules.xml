@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/lousland-dev.iml" filepath="$PROJECT_DIR$/lousland-dev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lousland-dev-api/lousland-dev-api.iml" filepath="$PROJECT_DIR$/lousland-dev-api/lousland-dev-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lousland-dev-common/lousland-dev-common.iml" filepath="$PROJECT_DIR$/lousland-dev-common/lousland-dev-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lousland-dev-mapper/lousland-dev-mapper.iml" filepath="$PROJECT_DIR$/lousland-dev-mapper/lousland-dev-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lousland-dev-pojo/lousland-dev-pojo.iml" filepath="$PROJECT_DIR$/lousland-dev-pojo/lousland-dev-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lousland-dev-service/lousland-dev-service.iml" filepath="$PROJECT_DIR$/lousland-dev-service/lousland-dev-service.iml" />
+    </modules>
+  </component>
+</project>

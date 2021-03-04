@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lousland-dev-pojo" />
+        <module name="lousland-dev-service" />
+        <module name="lousland-dev-api" />
+        <module name="lousland-dev-common" />
+        <module name="lousland-dev-mapper" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lousland-dev" target="1.8" />
+      <module name="lousland-dev-api" target="1.8" />
+      <module name="lousland-dev-common" target="1.8" />
+      <module name="lousland-dev-mapper" target="1.8" />
+      <module name="lousland-dev-pojo" target="1.8" />
+      <module name="lousland-dev-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="lousland-dev-api" options="-parameters" />
+      <module name="lousland-dev-common" options="-parameters" />
+      <module name="lousland-dev-mapper" options="-parameters" />
+      <module name="lousland-dev-pojo" options="-parameters" />
+      <module name="lousland-dev-service" options="-parameters" />
+    </option>
+  </component>
+</project>
