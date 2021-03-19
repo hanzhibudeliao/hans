@@ -1,6 +1,6 @@
 package com.lousland.pojo;
 
-import javax.persistence.*;
+import javax.persistence.Id;
 
 public class Stu {
     @Id
