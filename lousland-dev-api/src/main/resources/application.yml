@@ -11,15 +11,12 @@ server:
 # 配置数据源信息
 #############################################################
 spring:
-  # running time environment
+# running time environment
   profiles:
-    active: mac
+    active: win
   datasource: #  数据源的相关配置
+    driver-class-name: com.mysql.cj.jdbc.Driver  #  mysql驱动
     type: com.zaxxer.hikari.HikariDataSource  #  数据源类型：HikariCP
-    driver-class-name: com.mysql.jdbc.Driver  #  mysql驱动
-    url: jdbc:mysql://localhost:3306/hans?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
-    username: root
-    password: 12345678
     hikari:
       connection-timeout:  30000	#  等待连接池分配连接的最大时长（毫秒），超过这个时长还没可用的连接则发生SQ
       minimum-idle:  5	            #  最小连接数

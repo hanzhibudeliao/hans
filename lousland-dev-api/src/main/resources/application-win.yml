@@ -1,9 +1,8 @@
-#############################################################
-# 配置数据源信息
-#############################################################
+##############################################################
+## 配置数据源信息
+##############################################################
 spring:
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver  #  mysql驱动
-    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=UTC
     username: root
     password: root
