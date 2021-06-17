@@ -2,7 +2,7 @@
 # web访问端口号 约定：8088
 ############################################################
 server:
-  port: 80
+  port: 8081
   tomcat:
     uri-encoding: UTF-8
   max-http-header-size: 80KB
@@ -11,8 +11,7 @@ server:
 # 配置数据源信息
 #############################################################
 spring:
-# running time environment
-  profiles:
+  profiles: # running time environment
     active: win
   datasource: #  数据源的相关配置
     driver-class-name: com.mysql.cj.jdbc.Driver  #  mysql驱动

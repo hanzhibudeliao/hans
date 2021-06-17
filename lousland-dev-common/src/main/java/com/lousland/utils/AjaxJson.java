@@ -14,9 +14,10 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  * 502：拦截器拦截到用户token出错
  * 555：异常抛出信息
  * 556: 用户qq校验异常
+ *
  * @author hanzhi
  */
-public class AjaxJson {
+public final class AjaxJson {
 
     /**
      * 定义jackson对象
@@ -51,7 +52,11 @@ public class AjaxJson {
     public static AjaxJson build(Integer status, String msg, Object data, String ok) {
         return new AjaxJson(status, msg, data, ok);
     }
-    
+
+    public static AjaxJson ok(String msg, Object data) {
+        return new AjaxJson(msg, data);
+    }
+
     public static AjaxJson ok(Object data) {
         return new AjaxJson(data);
     }
@@ -100,6 +105,12 @@ public class AjaxJson {
     public AjaxJson(Object data) {
         this.status = 200;
         this.msg = "OK";
+        this.data = data;
+    }
+
+    public AjaxJson(String msg, Object data) {
+        this.status = 200;
+        this.msg = msg;
         this.data = data;
     }
 
