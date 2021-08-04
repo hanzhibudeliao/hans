@@ -65,7 +65,7 @@ public class UserServiceImpl implements UserService {
     public Users createUser(UserBo userBo) {
 
         Assert.isTrue(userBo != null,"createUser error!");
-
+        // 随机16位字符串
         String userId = sid.nextShort();
 
         Users user = new Users();

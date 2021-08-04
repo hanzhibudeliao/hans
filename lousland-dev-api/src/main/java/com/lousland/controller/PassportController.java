@@ -9,6 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 /**
+ * 通行相关controller
+ *
  * @author ：Hanzhi
  * @date ：2021/3/19 14:38
  */
